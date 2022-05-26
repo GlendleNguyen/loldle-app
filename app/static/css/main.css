@@ -326,3 +326,10 @@ img {
   width: 60%;
   margin:0 auto;
 }
+
+.ui-menu .ui-menu-item a{
+  background: #F4F4F3;
+  height: 18px;
+  font-size: 15px;
+}
+
