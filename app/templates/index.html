@@ -14,14 +14,14 @@
                 <!-- Script to display menu of champions-->
                 <script>
                 $( function() {
-                  var availableInput = [
-                      {% for champion in champions %}
-                          "{{champion|safe}}",
-                      {% endfor %}
-                  ];
-                  $( "#input" ).autocomplete({
-                    source: availableInput
-                  });
+                    var availableInput = [
+                        {% for champion in champions %}
+                            "{{champion|safe}}",
+                        {% endfor %}
+                    ];
+                    $( "#input" ).autocomplete({
+                        source: availableInput
+                    });
                 } );
                 </script>
                 <button type="submit" id="submit">LOCK IN</button>
