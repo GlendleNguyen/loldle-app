@@ -11,7 +11,7 @@ Try and guess the correct champion each day in 8 guesses!
 loldle was made using the python Flask micro-framework. The game's database is served by SQLite and SQLAlchemy. Server side rendering is done with jinja2 and jQuery. 
 
 ## Contributors
-Glen Nguyen
-Cathy Ngo
-Aaron Lim
-Sean Lim
+Glen Nguyen  
+Cathy Ngo  
+Aaron Lim  
+Sean Lim   
