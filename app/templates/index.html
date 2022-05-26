@@ -19,9 +19,12 @@
                           "{{champion|safe}}",
                       {% endfor %}
                   ];
-                  $( "#input" ).autocomplete({
-                    source: availableInput
-                  });
+
+                    $(document).ready(function() {
+                        $( "#input" ).autocomplete({
+                        source: availableInput
+                        });
+                    });
                 } );
                 </script>
                 <button type="submit" id="submit">LOCK IN</button>
