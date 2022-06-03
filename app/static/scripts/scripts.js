@@ -81,7 +81,7 @@ $(document).ready(function() {
                 $('#defeat-image').fadeIn(1000)
                 setTimeout(function(){
                     $('#defeat-image').fadeOut(1000)
-                    gameDefeat();
+                    gameDefeat(data.answer);
                 }, 2500);
             }
             else {incrementGuess();}
