@@ -137,7 +137,11 @@ function share() {
     result += `Total games played: ${gamesplayed}\n`;
     result += `Win percentage: ${winpercentage*100}%\n`;
 
-    navigator.clipboard.writeText(result);
+    navigator.clipboard.writeText(result).then(function() {
+        /* clipboard successfully set */
+    }, function() {
+        alert('Unable to copy');
+    });
 }
 
 /**
