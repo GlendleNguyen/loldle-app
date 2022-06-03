@@ -6,7 +6,7 @@
  * Create feedback cards with information from server-side game logic return values
  * @param {*} data The JSON object returned by the server
  */
- function createFeedbackCards(data) {
+function createFeedbackCards(data) {
     var $container = $("<div>", {"class": "grid-container"});
 
     var name = $("<h4></h4>").text(data.name).hide().fadeIn("slow");

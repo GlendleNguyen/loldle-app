@@ -8,7 +8,7 @@
  * @param {*} type 
  * @param {*} id 
  */
- function openModal(type,id) {
+function openModal(type,id) {
     // Get the modal
     var modal = document.getElementById(type);
 
@@ -33,7 +33,7 @@
  * Victory modal functionality
  * @param {*} guesses number of guesses player made
  */
- function gameVictory(guesses) {
+function gameVictory(guesses) {
     var guessesMadeDiv = $("<div></div>");
     let totalguesses = guesses + 1;
     var guessesMade = fontColor($("<span></span>").text('You won in ' + totalguesses + ' guesses.'));
@@ -74,7 +74,7 @@ function gameDefeat(answer) {
 
     var answerDiv = $("<div></div>");
     var answer = fontColor($("<span></span>").text('The answer was: ' + answer));
-   answerDiv.append(answer);
+    answerDiv.append(answer);
     $("#defeatScreen").append(answerDiv);
 
     var gamesWonDiv = $("<div></div>");
